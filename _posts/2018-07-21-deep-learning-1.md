@@ -1,12 +1,10 @@
 ---
 layout: article
-title: deep learning 1
+title: 深度學習I
 key: 20180721
 tags: AI
 ---
 
-深度學習 I
-===
 
 ## 1. 感知器(perceptron)
 ### 1. 何謂感知器
