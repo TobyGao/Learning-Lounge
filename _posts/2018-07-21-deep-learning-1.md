@@ -1,4 +1,5 @@
 ---
+layout: article
 title: deep learning 1
 key: 20180721
 tags: AI

@@ -120,8 +120,8 @@ comments:
     clientSecret: 2547fe2bdaedf55f2a7340943b1faa73f7ac5878 # GitHub Application Client Secret
     repository  : Learning-Lounge # GitHub repo
     owner       : tobyGao # GitHub repo owner
-    admin: tobyGao # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
+    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+      - tobyGao your GitHub Id
 
 
 ## => Pageview
