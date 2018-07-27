@@ -56,6 +56,7 @@ tags: 計算機結構
 
 1.  常見的型態：
 
+    |-----------+-----------|
     |型態(types)|大小(sizes)|
     |---|---|
     |字元 (character)|8 bits|
@@ -64,6 +65,7 @@ tags: 計算機結構
     |整數 (integers)|32 bits|
     |單精度浮點數 (single-precision floating point)|32 bits|
     |雙精度浮點數 (double--precision floating point)|64 bits|
+    |-----------+-----------|
     
 
 2.  十進位格式(packed decimal or binary-coded decimal—)：
