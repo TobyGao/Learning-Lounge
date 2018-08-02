@@ -69,26 +69,26 @@ tags: 自動機理論
      我們可以透過下面將任意的正規表示法轉換成$\epsilon-NFA$
 
 
-     ![re2eNFA](/assets/images/automata/regularExpressions/RE2eNFA.png){:width="70%"}
+     ![re2eNFA](/Learning-Lounge/pic/automata/regularExpressions/RE2eNFA.png){:width="70%"}
 
 2. 延伸
    - 聯集(Union)：
      利用symbol為空字串的arc來造成分支
 
-     ![union](/assets/images/automata/regularExpressions/union.png){:width="70%"}
+     ![union](/Learning-Lounge/pic/automata/regularExpressions/union.png){:width="70%"}
 
 
    - 串接(Concatenation)：
      狀態以一symbol為空字串的arc連接
 
-     ![concatenation](/assets/images/automata/regularExpressions/concatenation.png){:width="70%"}
+     ![concatenation](/Learning-Lounge/pic/automata/regularExpressions/concatenation.png){:width="70%"}
 
 
 
    - 克萊尼星號(Kleene Star)：
      形成迴圈，造成封閉(closure)
 
-     ![Kleene Star](/assets/images/automata/regularExpressions/KleeneStar.png){:width="70%"}
+     ![Kleene Star](/Learning-Lounge/pic/automata/regularExpressions/KleeneStar.png){:width="70%"}
 
 
 ### 2. 用DFA表示正規表示法
@@ -104,7 +104,7 @@ tags: 自動機理論
 
    * 例子:
 
-     ![kpath example](/assets/images/automata/regularExpressions/kpath_example.png){:width="70%"}
+     ![kpath example](/Learning-Lounge/pic/automata/regularExpressions/kpath_example.png){:width="70%"}
      
 
 3. 歸納推導
@@ -139,7 +139,7 @@ tags: 自動機理論
 
 4. 圖解
 
-   ![Illustration Of Induction](/assets/images/automata/regularExpressions/IllustrationOfInduction.png){:width="70%"}
+   ![Illustration Of Induction](/Learning-Lounge/pic/automata/regularExpressions/IllustrationOfInduction.png){:width="70%"}
 
 
 ---
