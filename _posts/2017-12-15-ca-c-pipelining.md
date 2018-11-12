@@ -422,3 +422,5 @@ CDC 6600是第一個利用Scoreboard來完成out of order execution的機器，S
 John L. Hennessy, David A. Patterson. "Computer Architecture: A Quantitative Approach, 5/e", Appendix B
 
 許雅三教授, "高等計算機結構課程投影片", 國立清華大學
+
+[Computer Science 315 Lecture Notes, University of Wisconsin-Milwaukee](http://www.cs.uwm.edu/classes/cs315/Bacon/Lecture/HTML/index.html)
