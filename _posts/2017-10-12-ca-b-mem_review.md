@@ -184,7 +184,7 @@ tags: 計算機結構
         為了避免混淆，在這邊將miss rate分為兩種：
         * 局部未中率(Local miss rate)：這個值代表這一級記憶體的miss rate，以第二級記憶體來說等於：$Miss\ penalty_{L2}$
         
-        * 全局未中率(Global miss rate)：這個值代表從最高級記憶體一路這到這一級記憶體的miss rate，以第二級記憶體來說等於：${{Miss\ penalty_{L1}}\times{Miss\ penalty_{L2}}}$
+        * 全局未中率(Global miss rate)：這個值代表從最高級記憶體一路這到這一級記憶體的miss rate，以第二級記憶體來說等於：${Miss\ penalty_{L1}}\times{Miss\ penalty_{L2}}$
 
 
         ![Miss rates vs cache size for multilevel caches](https://i.imgur.com/XoW0w2v.png)
