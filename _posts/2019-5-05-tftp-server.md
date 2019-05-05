@@ -57,25 +57,24 @@ $ sudo service tftpd-hpa restart
 1. 檢查服務有無開啟
 可以透過下面兩種方式來做檢查：
 * 檢查process有沒有運作
-```bash
-$ ps aux |grep tftp
-root     15480  0.0  0.0  15352   152 ?        Ss    5月05   0:00 /usr/sbin/in.tftpd --listen --user nobody --address :69 -l -c -s /tftpboot
-tobygao  20002  0.0  0.0  21544  1088 pts/7    S+   00:34   0:00 grep --color=auto tftp
-```
-
+  ```bash
+  $ ps aux |grep tftp
+  root     15480  0.0  0.0  15352   152 ?        Ss    5月05   0:00 /usr/sbin/in.tftpd --listen --user nobody --address :69 -l -c -s /tftpboot
+  tobygao  20002  0.0  0.0  21544  1088 pts/7    S+   00:34   0:00 grep --color=auto tftp
+   ```
 * 檢查網路的狀態
-```
-$ netstat -a | grep tftp
-udp        0      0 0.0.0.0:tftp            0.0.0.0:*                          
-udp6       0      0 [::]:tftp               [::]:*   
-```
+  ```
+  $ netstat -a | grep tftp
+  udp        0      0 0.0.0.0:tftp            0.0.0.0:*                          
+  udp6       0      0 [::]:tftp               [::]:*   
+  ```
 
 2. 利用tftp client來上下傳檔案
-```
-$ tftp tftp 127.0.0.1
-tftp> get downloadTest
-tftp> put uploadTest
-```
+   ```
+   $ tftp tftp 127.0.0.1
+   tftp> get downloadTest
+   tftp> put uploadTest
+   ```
 
 
 ---
